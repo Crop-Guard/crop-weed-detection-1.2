@@ -1,0 +1,18 @@
+# Dataset (DO NOT COMMIT LARGE DATASETS)
+Weed-crop RGB dataset
+*.zip
+
+# Results and outputs (can be regenerated)
+results/
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.json
+!dataset_summary.json  # Exception: keep summary
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
